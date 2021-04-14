@@ -1,6 +1,10 @@
-select country_name, max(count) as count_of_product
-from (select country_name, count(Country.id) as count
-     from product join Manufacturer on product.manufacturld = Manufacturer.id
-     join Country  on Country.id = Manufacturer.countryid
-     group by countryid desc) cx
+select Country.id as id, Country.country_name, count(Country.id) as product_cnt
+from product
+         join Manufacturer on product.manufacturld = Manufacturer.id
+         join Country
+         join Country C on Manufacturer.countryid = C.id
+group by Manufacturer.id
+order by product_cnt desc
+limit 1
+
 

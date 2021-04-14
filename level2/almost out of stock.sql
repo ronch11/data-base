@@ -8,3 +8,5 @@ from product
                         join Country C on Manufacturer.countryid = C.id
                where country_name = @country_name) M on product.manufacturld = M.id
 where AmountInStock <= @min_amount;
+
+
