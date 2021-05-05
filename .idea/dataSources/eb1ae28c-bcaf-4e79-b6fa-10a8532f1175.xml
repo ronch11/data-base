@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="@sql4396382">
-  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.20">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.21">
     <root id="1">
       <ServerVersion>5.5.54</ServerVersion>
+      <Grants>sql4396382|schema||sql4396382||ALTER|G
+sql4396382|schema||sql4396382||ALTER ROUTINE|G
+sql4396382|schema||sql4396382||CREATE|G
+sql4396382|schema||sql4396382||CREATE ROUTINE|G
+sql4396382|schema||sql4396382||CREATE VIEW|G
+sql4396382|schema||sql4396382||DELETE|G
+sql4396382|schema||sql4396382||DROP|G
+sql4396382|schema||sql4396382||EXECUTE|G
+sql4396382|schema||sql4396382||INDEX|G
+sql4396382|schema||sql4396382||INSERT|G
+sql4396382|schema||sql4396382||LOCK TABLES|G
+sql4396382|schema||sql4396382||SELECT|G
+sql4396382|schema||sql4396382||SHOW VIEW|G
+sql4396382|schema||sql4396382||UPDATE|G</Grants>
       <DefaultEngine>InnoDB</DefaultEngine>
       <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
       <DefaultCasing>exact</DefaultCasing>
@@ -644,11 +658,7 @@
     <collation id="200" parent="1" name="utf8mb4_unicode_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <user id="201" parent="1" name="sql4396382">
-      <Host>%</Host>
-      <ObjectGrants>SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,INDEX,ALTER,LOCK TABLES,EXECUTE,CREATE VIEW,SHOW VIEW,CREATE ROUTINE,ALTER ROUTINE|sql4396382
-</ObjectGrants>
-    </user>
+    <user id="201" parent="1" name="sql4396382"/>
     <table id="202" parent="3" name="Country"/>
     <table id="203" parent="3" name="Manufacturer"/>
     <table id="204" parent="3" name="branchs"/>
