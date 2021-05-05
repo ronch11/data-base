@@ -1,2 +1,2 @@
-SELECT ID as employees_id, salary, max(SENIORITY) as seniority
-FROM employees
+SELECT ID,min(SALARY)
+FROM EMPLOYEES
