@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <ChainId>7290027600007</ChainId>
+  <SubChainId>001</SubChainId>
+  <StoreId>001</StoreId>
+  <BikoretNo>9</BikoretNo>
+  <DllVerNo>8.0.1.3</DllVerNo>
+  <Items Count="4">
+    <Item>
+      <PriceUpdateDate>2021-04-29 13:00</PriceUpdateDate>
+      <ItemCode>7296073452386</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>אושפלו פרגית 550 גרם</ItemName>
+      <ManufacturerName>סי.אי.פי מבוא חורון</ManufacturerName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufacturerItemDescription>אושפלו פרגית</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>500.00</Quantity>
+      <bIsWeighted>0</bIsWeighted>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>24.90</ItemPrice>
+      <UnitOfMeasurePrice>4.98</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2021-04-29 13:00</PriceUpdateDate>
+      <ItemCode>7296073452911</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>קציצות בשר ברוטב אפונה</ItemName>
+      <ManufacturerName>סי.אי.פי מבוא חורון</ManufacturerName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufacturerItemDescription>קציצות בשר ברוטב</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>600.00</Quantity>
+      <bIsWeighted>0</bIsWeighted>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>24.90</ItemPrice>
+      <UnitOfMeasurePrice>4.15</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2021-04-29 11:50</PriceUpdateDate>
+      <ItemCode>884912014245</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>פוסט הני בנצ'ס רוסטד411ג</ItemName>
+      <ManufacturerName>פוסט</ManufacturerName>
+      <ManufactureCountry>US</ManufactureCountry>
+      <ManufacturerItemDescription>פוסט הני בנצ'ס</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>411.00</Quantity>
+      <bIsWeighted>0</bIsWeighted>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>18.90</ItemPrice>
+      <UnitOfMeasurePrice>4.60</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2021-04-29 11:50</PriceUpdateDate>
+      <ItemCode>884912014252</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>פוסט הני בנצ'ס אלמונד411</ItemName>
+      <ManufacturerName>פוסט</ManufacturerName>
+      <ManufactureCountry>US</ManufactureCountry>
+      <ManufacturerItemDescription>דגני הני בנצ'ס</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>411.00</Quantity>
+      <bIsWeighted>0</bIsWeighted>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>18.90</ItemPrice>
+      <UnitOfMeasurePrice>4.60</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+  </Items>
+</root>

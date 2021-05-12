@@ -15,4 +15,3 @@ create table employees
 
 create index BARNCH_ID
     on employees (BARNCH_ID);
-
