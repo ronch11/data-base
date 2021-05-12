@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://D:/mini-project-data-base/level3/all employees.sql" dialect="MySQL" />
+    <file url="file://D:/mini-project-data-base/level3/biggest shareholders.sql" dialect="MySQL" />
+    <file url="file://D:/mini-project-data-base/level3/branchs.sql" dialect="MySQL" />
+    <file url="file://D:/mini-project-data-base/level3/employees earn more than x.sql" dialect="MySQL" />
+    <file url="file://D:/mini-project-data-base/level3/employees.sql" dialect="MySQL" />
+    <file url="file://D:/mini-project-data-base/level3/publicity price of specific goal.sql" dialect="MySQL" />
+    <file url="file://D:/mini-project-data-base/level3/total_publicity_cost.sql" dialect="MySQL" />
+  </component>
+</project>
