@@ -10,3 +10,4 @@ join Country C on M.countryid = C.id
 where AmountInStock <= :min_amount;
 
 
+
