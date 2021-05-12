@@ -1,4 +1,3 @@
-
 # All products that almost out of stock from a specific country.
 select product.barcode,
        product.name,
