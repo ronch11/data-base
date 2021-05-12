@@ -7,6 +7,6 @@ select product_in_branch.product_barcode,
 from product
          join product_in_branch on product.barcode = product_in_branch.product_barcode
          join Manufacturer M on product.manufacturld = M.id
-         join county C on M.countryid = C.id
+         join country C on M.countryid = C.id
          join branchs b on b.ID = product_in_branch.branch_id
 where product_in_branch.amount_in_stock <= :min_amount;
