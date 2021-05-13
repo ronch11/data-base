@@ -1,10 +1,10 @@
-DROP trigger if exists tr_ins_id_manage;
-DROP trigger if exists tr_up_id_manage;
+DROP trigger if exists tr_ins_id_manage_emp;
+DROP trigger if exists tr_up_id_manage_emp;
 
 
  DELIMITER $$
 
-     CREATE trigger tr_ins_id_manage
+     CREATE trigger tr_ins_id_manage_emp
      after insert on employees
      for each row
      BEGIN
@@ -14,7 +14,7 @@ DROP trigger if exists tr_up_id_manage;
          END$$
 
 
-     CREATE trigger tr_up_id_manage
+     CREATE trigger tr_up_id_manage_emp
      after insert on employees
      for each row
      BEGIN

@@ -1,10 +1,10 @@
-DROP trigger if exists tr_ins_id_manage1;
-DROP trigger if exists tr_up_id_manage1;
+DROP trigger if exists tr_ins_id_manage_brn;
+DROP trigger if exists tr_up_id_manage_brn;
 
 
  DELIMITER $$
 
-     CREATE trigger tr_ins_id_manage1
+     CREATE trigger tr_ins_id_manage_brn
      after insert on branchs
      for each row
      BEGIN
@@ -12,7 +12,7 @@ DROP trigger if exists tr_up_id_manage1;
      END$$
 
 
-     CREATE trigger tr_ins_up_manage1
+     CREATE trigger tr_ins_up_manage_brn
      after insert on branchs
      for each row
      BEGIN
