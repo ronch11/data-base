@@ -15,7 +15,7 @@ DROP trigger if exists tr_up_id_manage_emp;
 
 
      CREATE trigger tr_up_id_manage_emp
-     after insert on employees
+     after update on employees
      for each row
      BEGIN
          if (JOB = 'Manager') THEN
