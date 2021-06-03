@@ -7,6 +7,7 @@ create table employees
     SALARY    int(10)     not null,
     SENIORITY int(10)     not null,
     BARNCH_ID int         not null,
+    IS_MANAGER tinyint(1) default 0 not null,
     constraint employees_EMAIL_uindex
         unique (EMAIL),
     constraint employees_ibfk_1
